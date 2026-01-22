@@ -1,0 +1,21 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "to remind basic of node.js",
+  "license": "ISC",
+  "author": "shim",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "start": "node --watch app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mysql2": "^3.16.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
