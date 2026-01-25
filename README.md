@@ -13,5 +13,5 @@ This is a simple node.js + Express API for managing Todo itmes.
 
 - Node.js
 - Express
-- MySQL
+- PostgreSQL
 - Jest (for testing)
