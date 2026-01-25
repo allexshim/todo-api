@@ -1,6 +1,6 @@
 # Todo App
 
-This is a simple node.js + Express API for managing Todo itmes.
+This is a simple node.js + Express API for managing Todo items.
 
 ## Features
 
@@ -15,3 +15,7 @@ This is a simple node.js + Express API for managing Todo itmes.
 - Express
 - PostgreSQL
 - Jest (for testing)
+
+## Deployment
+
+- Render (Node.js + PostgreSQL)

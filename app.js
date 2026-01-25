@@ -11,4 +11,10 @@ app.use((error, req, res, next) => {
   res.status(500).json({ message: "Something went wrong." });
 });
 
-app.listen(8080);
+// Setting for deployment by render
+const port = process.env.PORT || 8080;
+const host = process.env.NODE_ENV === "production" ? "0.0.0.0" : "localhost";
+
+app.listen(port, host, () => {
+  console.log(`Listening on ${host}:${port}`);
+});
